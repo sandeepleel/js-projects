@@ -10,6 +10,8 @@ This repository contains multiple JavaScript projects that I built while practic
 5. [BMI Calculator](./bmi-calculator/)
 6. [Guess the Number Game](./guess-number-game/)
 7. [KeyPress Events Display](./keypress-events-display/)
+8. [StopWatch]
+9. [Weather]
 
 Each project demonstrates different JavaScript concepts such as:
 - **DOM Manipulation**
