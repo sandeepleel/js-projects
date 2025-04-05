@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <header class="signup-header">
+                <h1>Signup</h1>
+            </header>
+            <main class="signup-body">
+                <form action="">
+                    <p>
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name"  placeholder="Type Name Here">
+                        <i class="fa-solid "></i>
+                        <span id="nameError"></span>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email"  placeholder="sk@gmail.com">
+                        <i class="fa-solid "></i>
+                        <span id="emailError"></span>
+                    </p>
+
+
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password"  id="password" placeholder="at least 8 characters" >
+                        <i class="fa-solid"></i>
+                        <span id="passwordError"></span>
+                    </p>
+                    <p>
+                        <input type="submit" value="Create Account" id="submitBtn">
+                    </p>
+                </form>
+            </main>
+            <footer class="signup-footer">
+<p>Already have an account? <a href="https://youtube.com/@engineeringwithsandeep7077">Login</a></p>
+            </footer>
+
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
+
+<!-- in html :  <form action="#">
+    <p>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required placeholder="Type Name Here">
+    </p>
+
+    <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="sk@gmail.com">
+    </p>
+
+    
+    <p>
+        <label for="password">Password:</label>
+        <input type="password" required id="password" placeholder="at least 8 characters" min="8" max="30">
+    </p>
+    <p>
+        <input type="submit" value="Create Account">
+    </p> -->
