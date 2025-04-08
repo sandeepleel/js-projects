@@ -1,28 +1,24 @@
+# ⏱️ Pomodoro Timer - Boost Your Productivity
 
-markdown
-Copy
-Edit
-# Pomodoro Timer ⏳
+A simple and effective **Pomodoro Timer** built using **HTML**, **CSS**, and **JavaScript** to help manage work and break sessions based on the Pomodoro Technique.
 
-A simple and clean Pomodoro Timer UI built using **HTML** and **CSS** as part of my JavaScript practice journey. This is the **14th project** in the series.
+---
 
-## 🚀 Features (UI Only for Now)
-- Clean and centered timer interface
-- Buttons for:
-  - ✅ Start
-  - ⏸️ Pause
-  - 🔄 Resume
-  - 🔁 Reset
-- Responsive layout
-- Custom button colors using CSS variables
+## 📌 Features
 
-## 🛠️ Tech Stack
-- HTML5
-- CSS3
+- ✅ **25-minute Work Timer**
+- 🛋️ **5-minute Break Timer**
+- ▶️ Start, ⏸️ Pause, 🔄 Resume, and 🧹 Reset functionality
+- 🧠 Pomodoro **Session Counter** with localStorage
+- 🧾 Simple and clean UI
+- 🔁 Auto-switch between work and break sessions
 
-> JavaScript functionality (timer logic) coming soon!
+---
 
-## 📸 Preview
-![Pomodoro Timer UI Preview](screenshot.png) <!-- Add a screenshot image if you have one -->
+## 🚀 Getting Started
 
-## 📁 Folder Structure
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/sandeepleel/
+cd pomodoro-timer
