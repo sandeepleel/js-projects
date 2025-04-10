@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading" >Quiz App</h1>
+        <div class="game">
+            <h1 class="question">Which these fish is actually a fish</h1>
+            <div class="answer">
+                <input type="radio" name="answer"  id="answer1" value="false"/>
+                <label for="answer1">Answer1</label>
+            </div>
+            <div class="answer">
+                <input type="radio" name="answer" id="answer2" value="false"/>
+                <label for="answer2" >Answer2</label>
+            </div>
+            <div class="answer">
+                <input type="radio" name="answer" id="answer3" value="false"/>
+                <label for="answer3" >Answer3</label>
+            </div>
+            <div class="answer">
+                <input type="radio" name="answer" id="answer4" value="false"/>
+                <label for="answer4" >Answer4</label>
+            </div>
+        </div>
+        <button class="submit">Submit</button>
+
+        <div class="result">
+            <h1>Congratualtions</h1>
+            <h3 class="correct">Correct Answer: 0</h3>
+            <h3 class="wrong">Wrong Answer</h3>
+            <h2 class="score">Score: -30</h2>
+            <button class="play">Play Again</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
